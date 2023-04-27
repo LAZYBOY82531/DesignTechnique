@@ -23,7 +23,7 @@ namespace DesignTechnique
 		// x! = x * (x-1)!;
 		// 1! = 1;
 		// ex) 5! = 5 * 4 * 3 * 2 * 1
-		int Factorial(int x)
+		public static int Factorial(int x)
 		{
 			if (x == 1)
 				return 1;

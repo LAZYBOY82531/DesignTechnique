@@ -11,7 +11,7 @@
 		 ******************************************************/
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(Recursion.Factorial(5));
         }
     }
 }
